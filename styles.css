@@ -22,7 +22,7 @@
     top:6px;
 }
 
-.splash,.sec2,.sec3,.sec4,.sec7,.sec8,.sec9{
+.splash,.sec2,.sec3,.sec3_1,.sec4,.sec7,.sec8,.sec9{
     width: var(--widths); 
     height: var(--heights);
 }

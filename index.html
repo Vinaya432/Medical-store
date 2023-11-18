@@ -45,7 +45,7 @@
 
     <!-- section 3 login -->
     <section>
-        <div class="sec3 border position-relative mt-3">
+        <div class="sec3 border position-relative">
             <img class="position-absolute" src="./images/login/logo_info (1).png" alt="" style="top: 239px; left: 43px;">
 
             <div class="position-absolute" style="width: 255px; height: 48px; left: 43px; top:450px;">
@@ -58,9 +58,41 @@
         </div>
     </section>
 
+    <!-- section 3.1  verification-->
+    <section>
+        <div class="sec3_1 border">
+            <a href="" class="text-decoration-none text-dark"> <i class="bi bi-arrow-left " style="font-size: 20px; font-weight: bold; margin-left: 17px; margin-top: 15px;"></i></a>
+            <div class="mt-3 ms-4" style="width: 316.79px; height: 92.7px;">
+                <h5 class="fw-bold" style="font-size: 24px; line-height: 32px;">Enter the verify code</h5>
+                <p class="text-secondary ms-1" style="font-size: 14px; line-height: 21px; font-family: Overpass;">We have just send you a verification code via phone +91 9265614292 </p>
+            </div>
+
+            <form  class="digit-group d-flex ms-5 mt-3" data-group-name="digits" data-autosubmit="false" autocomplete="off">
+                <input type="text" id="digit-1" name="digit-1" data-next="digit-2" style="width: 20px; border: none; border-bottom: 1px solid;" class="me-2 text-center" placeholder="0">
+                <input type="text" id="digit-2" name="digit-2" data-next="digit-3" data-previous="digit-1" style="width: 20px; border: none; border-bottom: 1px solid;" class="me-2 text-center" placeholder="0"/>
+                <input type="text" id="digit-3" name="digit-3" data-next="digit-4" data-previous="digit-2" style="width: 20px; border: none; border-bottom: 1px solid;" class="me-2 text-center" placeholder="0"/>
+                <input type="text" id="digit-4" name="digit-4" data-next="digit-5" data-previous="digit-3" style="width: 20px; border: none; border-bottom: 1px solid;" class="me-2 text-center" placeholder="0"/>
+                <input type="text" id="digit-5" name="digit-5" data-next="digit-6" data-previous="digit-4" style="width: 20px; border: none; border-bottom: 1px solid;" class="me-2 text-center" placeholder="0"/>
+                <input type="text" id="digit-6" name="digit-6"  data-previous="digit-5" style="width: 20px;  border: none; border-bottom: 1px solid;" class="me-2 text-center" placeholder="0"/>
+                <input type="text" id="digit-7" name="digit-7" data-next="digit-8" style="width: 20px; border: none; border-bottom: 1px solid;" class="me-2 text-center" placeholder="0"/>
+                <input type="text" id="digit-8" name="digit-8" data-next="digit-9"  data-previous="digit-7" style="width: 20px; border: none; border-bottom: 1px solid;" class="me-2 text-center" placeholder="0"/>
+                <input type="text" id="digit-9" name="digit-9" data-next="digit-10"  data-previous="digit-8" style="width: 20px; border: none; border-bottom: 1px solid;" class="me-2 text-center" placeholder="0"/>
+                <input type="text" id="digit-10" name="digit-10" data-previous="digit-9" style="width: 20px; border: none; border-bottom: 1px solid;" class="me-2 text-center" placeholder="0"/>
+            </form>
+
+            <button type="submit" class= "btn btn-primary rounded-pill mt-4 ms-3" style="width: 330.6px; height: 45px;">Submit</button>
+
+           <div class="text-center mt-3">
+                <p class="text-secondary fs-6">The verify code will expire in 00:59sec</p>
+                <a class="text-decoration-none" href=""><p>Resend Code</p></a>
+    
+           </div>
+        </div>
+    </section>
+
     <!--section 4 login sucess -->
     <section>
-        <div class="sec4  position-relative">
+        <div class="sec4 border  position-relative">
             <img class="position-absolute" src="./images/login/login_sucess_image.png" alt="" style="top:172px; left:56px;">
         
             <div class="position-absolute" style="top: 443px; left:56px;">
@@ -74,7 +106,7 @@
 
     <!-- section 5 home -->
     <section >
-        <div class="border position-relative bg-primary bg-opacity-10 mt-3" style="width: 375px; height: 1162px;">
+        <div class="border position-relative bg-primary bg-opacity-10" style="width: 375px; height: 1162px;">
             <div class="w-100 bg-primary" style="height: 213px; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;" >
             </div>
             <div class="d-flex  position-absolute" style="top: 30px; right: 20px;">
@@ -187,7 +219,7 @@
     </section>
 
     <!-- section 5  category list-->
-    <section class="mt-3">
+    <section >
         <div class="border " style="width: 405px; height: 1046px; ">
             <i class="bi bi-arrow-left " style="font-size: 20px; font-weight: bold; margin-left: 17px; margin-top: 15px;"></i><span class="fw-bold" style="font-size: 16px; margin-left: 22px;">Diabetes Care</span>
             <p class="fw-semibold" style="font-size: 16px; margin-top: 25px; margin-left: 17px;">Categories</p>
